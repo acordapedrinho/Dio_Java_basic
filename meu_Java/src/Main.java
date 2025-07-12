@@ -2,15 +2,16 @@
 import java.util.Locale;
 import java.util.Scanner;
 
+
 public class Main{
  public static void main(String[] args) {
 
         Locale.setDefault(Locale.US);
         Scanner scanner=new Scanner(System.in);
 
-        Account Account;
+        Account account;
 
-        System.out.println("enter com numero");
+        System.out.println("entre com um numero");
         int number= scanner.nextInt();
         System.out.println("account holder dono:");
         scanner.nextLine();
